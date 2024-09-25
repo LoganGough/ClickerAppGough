@@ -14,6 +14,7 @@
 		BA9ADEA62CA438C400F80ACA /* ClickerAppGough.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADEA42CA438C400F80ACA /* ClickerAppGough.xcdatamodeld */; };
 		BA9ADEA82CA438C600F80ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADEA72CA438C600F80ACA /* Assets.xcassets */; };
 		BA9ADEAB2CA438C600F80ACA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADEAA2CA438C600F80ACA /* Base */; };
+		BA9ADEB52CA43BD000F80ACA /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADEB42CA43BD000F80ACA /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		BA9ADEA72CA438C600F80ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9ADEAA2CA438C600F80ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9ADEAC2CA438C600F80ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9ADEB42CA43BD000F80ACA /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		BA9ADE8F2CA438C400F80ACA = {
 			isa = PBXGroup;
 			children = (
+				BA9ADEB42CA43BD000F80ACA /* StoreViewController.swift */,
 				BA9ADE9A2CA438C400F80ACA /* ClickerAppGough */,
 				BA9ADE992CA438C400F80ACA /* Products */,
 			);
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9ADEA62CA438C400F80ACA /* ClickerAppGough.xcdatamodeld in Sources */,
+				BA9ADEB52CA43BD000F80ACA /* StoreViewController.swift in Sources */,
 				BA9ADEA02CA438C400F80ACA /* ViewController.swift in Sources */,
 				BA9ADE9C2CA438C400F80ACA /* AppDelegate.swift in Sources */,
 				BA9ADE9E2CA438C400F80ACA /* SceneDelegate.swift in Sources */,
