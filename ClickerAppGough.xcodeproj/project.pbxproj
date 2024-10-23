@@ -15,6 +15,8 @@
 		BA9ADEA82CA438C600F80ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADEA72CA438C600F80ACA /* Assets.xcassets */; };
 		BA9ADEAB2CA438C600F80ACA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BA9ADEAA2CA438C600F80ACA /* Base */; };
 		BA9ADEB52CA43BD000F80ACA /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9ADEB42CA43BD000F80ACA /* StoreViewController.swift */; };
+		BAEB61952CC7D2EF000D2C78 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB61942CC7D2EF000D2C78 /* Scores.swift */; };
+		BAEB61972CC7D493000D2C78 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB61962CC7D493000D2C78 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		BA9ADEAA2CA438C600F80ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA9ADEAC2CA438C600F80ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9ADEB42CA43BD000F80ACA /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		BAEB61942CC7D2EF000D2C78 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		BAEB61962CC7D493000D2C78 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 				BA9ADE9B2CA438C400F80ACA /* AppDelegate.swift */,
 				BA9ADE9D2CA438C400F80ACA /* SceneDelegate.swift */,
 				BA9ADE9F2CA438C400F80ACA /* ViewController.swift */,
+				BAEB61942CC7D2EF000D2C78 /* Scores.swift */,
 				BA9ADEA12CA438C400F80ACA /* Main.storyboard */,
+				BAEB61962CC7D493000D2C78 /* ThirdViewController.swift */,
 				BA9ADEA72CA438C600F80ACA /* Assets.xcassets */,
 				BA9ADEA92CA438C600F80ACA /* LaunchScreen.storyboard */,
 				BA9ADEAC2CA438C600F80ACA /* Info.plist */,
@@ -147,7 +153,9 @@
 				BA9ADEA62CA438C400F80ACA /* ClickerAppGough.xcdatamodeld in Sources */,
 				BA9ADEB52CA43BD000F80ACA /* StoreViewController.swift in Sources */,
 				BA9ADEA02CA438C400F80ACA /* ViewController.swift in Sources */,
+				BAEB61972CC7D493000D2C78 /* ThirdViewController.swift in Sources */,
 				BA9ADE9C2CA438C400F80ACA /* AppDelegate.swift in Sources */,
+				BAEB61952CC7D2EF000D2C78 /* Scores.swift in Sources */,
 				BA9ADE9E2CA438C400F80ACA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8MY4CG229;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClickerAppGough/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,7 +321,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerAppGough;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerAppGough56;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,6 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8MY4CG229;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ClickerAppGough/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -339,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerAppGough;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerAppGough56;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
